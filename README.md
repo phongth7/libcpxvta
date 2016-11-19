@@ -5,5 +5,8 @@ A windows library, based on FFmpeg, to convert videos to audio files. Currently,
 
 The DLL exports one function:
 
-    int cpxvta_convert(const char* inputFileName, const char* outputFileName, ConvertSettings* settings, NotifyProgressCallback callback) 
-    
+    int cpxvta_convert(
+      const char* inputFileName, 
+      const char* outputFileName, 
+      ConvertSettings* settings, 
+      NotifyProgressCallback callback)     
